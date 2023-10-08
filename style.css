@@ -1,0 +1,149 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+body{
+    background-color:#1f242d;
+    background-image:url("https://images.bauerhosting.com/empire/2023/07/insidious-2.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.navbar{
+    min-height:70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav{
+    display:flex;
+}
+.navbar h2{
+    margin-left:50px;
+    margin-right:20px;
+    color:#f62f08;
+    font-size:30px;
+    cursor: pointer;
+}
+.navbar a{
+    text-decoration:none;
+    color:white;
+    margin:12px;
+    cursor: pointer;
+    
+}
+.links{
+    margin-top:10px;
+}
+.navbar a:hover{
+ color:grey;
+}
+input::placeholder{
+    color:white;
+    padding-left:20px;
+}
+.search-div{
+    width:300px;
+    height:45px;
+    background:black;
+    border:2px solid grey;
+    border-radius: 10px;
+    color:white;
+    margin-right:30px;
+}
+.search-div i {
+    scale: 1.5;
+    transform: translate(10px, 7px);
+}
+input{
+    width:250px;
+    height:45px;
+    font-size:18px;
+    background:transparent;
+    transform: translate(10px,-23px);
+    border: none;
+    outline: none;
+    color:white;
+    margin-left:30px;
+}
+
+input:active input::placeholder{
+    display: none;
+}
+.movie_name{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    
+    margin-left:50px;
+    height:490px;
+    width:600px;
+    color:white;
+}
+.movie_name h1{
+    font-size:90px;
+    font-weight:490;
+}
+.red{
+    margin-left:30px;
+    margin-right:30px;
+}
+span{
+    color:#f62f08;
+    
+}
+.movie_name h3{
+    font-size:28px;
+    font-weight:400;
+    margin-top:-20px;
+    letter-spacing:20px;
+}
+button{
+    margin-top:20px;
+    font-size:20px;
+    border-radius:8px;
+    font-weight:500;
+}
+.play{
+    background:white;
+    height:40px;
+    width:120px;
+}
+i{
+    position:relative;
+    top:3px;
+    margin-right:6px;
+}
+.play i{
+    color:black;
+    font-size:20px;
+
+}
+.info{
+    background:#bdb4bd;
+    color:white;
+    height:40px;
+    width:150px;
+}
+.info i{
+   color:white;
+   font-size:20px;
+}
+.images_box{
+    display:flex;
+}
+img{
+    height:190px;
+    width:270px;
+    border-radius:12px;
+}
+h4{
+    font-size:20px;
+    color:white;
+    margin-left:50px;
+    margin-bottom:12px;
+    border-radius:12px;
+}
+img:nth-child(1){
+    margin-left:50px;
+}
